@@ -112,7 +112,7 @@ const ChatBot = () => {
 
   return (
     <div className='flex flex-col h-screen w-full'>
-      <div className="flex flex-col flex-grow overflow-y-auto p-4 rounded-lg" style={{ maxHeight: 'calc(100vh - 90px)' }} ref={scrollViewRef}>
+      <div className="flex flex-col flex-grow overflow-y-auto p-4 rounded-lg']" ref={scrollViewRef}>
         <div className="flex flex-col items-center mb-4">
           <img
             src="/MindGinie_Original.jpg"
