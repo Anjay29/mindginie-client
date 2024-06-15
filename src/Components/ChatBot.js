@@ -112,7 +112,7 @@ const ChatBot = () => {
 
   return (
     <div className='flex flex-col h-screen w-full'>
-      <div className="flex flex-col flex-grow overflow-y-auto p-4 rounded-lg" ref={scrollViewRef}>
+      <div className="flex flex-col flex-grow overflow-y-auto p-4 rounded-lg" style={{ maxHeight: 'calc(100vh - 90px)' }} ref={scrollViewRef}>
         <div className="flex flex-col items-center mb-4">
           <img
             src="/MindGinie_Original.jpg"
@@ -151,7 +151,7 @@ const ChatBot = () => {
         </div>
       </div>
 
-      <div className="flex mt-2 mb-1">
+      <div className="flex ml-2 mt-2 mb-2">
         <input
           className="border border-gray-300 p-2 rounded-3xl flex-grow"
           value={inputText}
